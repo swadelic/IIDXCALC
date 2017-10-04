@@ -1,0 +1,101 @@
+* {
+	background-color: black;
+	text-align: center;
+	color: lightgrey;
+	font-color: lightgrey;
+	font-family: wkmrgoth;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+select{
+	font-size: 12pt;
+	border-radius: 4px;
+}
+input{
+	font-size: 12pt;
+	border-color: darkgrey;
+	border-width: 1px;
+	border-radius: 4px;
+}
+
+#logo{
+	margin: auto;
+	width: 360px;
+	height: 120px;
+	background-image: url(img/logo/logo.png);
+}
+#version{
+}
+#hispeed{
+	width: 87px;
+	text-align: center;
+}
+#bpm{
+
+}
+#green{
+	color: limegreen;
+	width: 70px;
+}
+#num{
+	margin: auto;
+	width: 360px;
+	height: 90px;
+	padding-top: 30px;
+	color: black;
+	font-family: commadorwide;
+	font-size: 40pt;
+	-webkit-text-stroke: 1pt lightgrey;
+}
+#calc{
+	font-family: commadorwide;
+	letter-spacing: 4px;
+	padding: 5px;
+	font-size: 20pt;
+	-webkit-text-stroke: .5pt lightgrey;
+	border-radius: 5px;
+	color: black;
+}
+
+/*Placeholder color for BPM*/
+#bpm::-webkit-input-placeholder { /* Chrome */
+  color: lightgrey;
+}
+#bpm:-ms-input-placeholder { /* IE 10+ */
+  color: lightgrey;
+}
+#bpm::-moz-placeholder { /* Firefox 19+ */
+  color: lightgrey;
+  opacity: 1;
+}
+#bpm:-moz-placeholder { /* Firefox 4 - 18 */
+  color: lightgrey;
+  opacity: 1;
+}
+
+/*Placeholder color for green number*/
+#green::-webkit-input-placeholder { /* Chrome */
+  color: limegreen;
+}
+#green:-ms-input-placeholder { /* IE 10+ */
+  color: limegreen;
+}
+#green::-moz-placeholder { /* Firefox 19+ */
+  color: limegreen;
+  opacity: 1;
+}
+#green:-moz-placeholder { /* Firefox 4 - 18 */
+  color: limegreen;
+  opacity: 1;
+}
+
+/*Loads fonts*/
+@font-face {	font-family: commadorwide;
+				src: url(font/commadorwide.ttc);
+}
+@font-face {	font-family: wkmrgoth;
+				src: url(font/wkmrgoth.ttf);

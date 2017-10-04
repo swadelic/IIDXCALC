@@ -1,0 +1,8 @@
+Beatmania IIDX HISPEED Calculator
+CS Styles 3-13
+
+Actual HISPEED values
+https://remywiki.com/IIDX_General_Info#What_are_the_actual_values_of_the_high-speed_settings.3F
+
+Lane Cover Formula:
+1000 - (Hi-Speed Value) * (Desired Green Number) * (BPM) / 174

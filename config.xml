@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget
+    id          = "com.swadeliq.iidxcalc"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+  <name>IIDX CALC</name>
+
+  <description>
+      SUDDEN+ calculator for Beatmania IIDX CS versions.
+  </description>
+
+  <author href="https://github.com/swadeliq">
+      Swadeliq
+  </author>
+
+  <platform name="android" />
+
+  <icon src="img/icon/mdpi.png" platform="android" qualifier="mdpi" />
+  <icon src="img/icon/hdpi.png" platform="android" qualifier="hdpi" />
+  <icon src="img/icon/xhdpi.png" platform="android" qualifier="xhdpi" />
+  <icon src="img/icon/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+  <icon src="img/icon/xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+
+  <icon src="img/icon/appicon.png" />
+
+</widget>
